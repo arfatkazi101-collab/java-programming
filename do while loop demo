@@ -1,0 +1,9 @@
+class dowhiledemo
+{public static void main(String arg[])
+  {int a=15;
+     do
+    {System.out.println("do while loop");
+     }
+     while(a<=10);
+   }
+ }
