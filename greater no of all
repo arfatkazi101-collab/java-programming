@@ -1,0 +1,18 @@
+import java.io.DatainputStream;
+class greaterofthree
+{ 
+ public static void main(String arg[])throw IOException
+ {DataInputStream dis= new DataInputStream(System.in);
+    int n1,n2,n3;
+    System.out.println("entwe three number");
+    n1=Integer.parseInt(dis.readline());
+    n2=Integer.parseInt(dis.readline());
+    n3=Integer.parseInt(dis.readline());
+    if (n1>n2&&n1>n3)
+    System.out.println(n1+"is greater");
+    if (n2>n1&&n2>n3)
+    System.out.println(n2+"is greater");
+    if (n3>n1&&n3>n2)
+    System.out.println(n3+"is greater");
+   }
+ }
