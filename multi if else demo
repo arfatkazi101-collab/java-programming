@@ -1,0 +1,20 @@
+multi ifelsedemo
+
+class multiifelse.demo
+{public static void main(String arg[])
+ {int a=09, b=04;
+   if (a>5)
+   {System.out.println("a is greater then 5");
+    }
+   else
+   {System.out.println("a is not greater the 5");
+    }
+   
+   if (b>5)
+   {System.out.println("b is greater then 5");
+    }
+   else
+   {System.out.println("b is not greater then 5");
+    }
+   }
+ }
